@@ -1,10 +1,10 @@
 function iterativeLog(array) {
-  //array.forEach(console.log(`${index}: ${element}`))
+  array.forEach((element,index) => {console.log(`${index}: ${element}`)})
 }
 
-funtion iterate(callback) {
+function iterate(callback) {
   var array=[123,456,789]
-  array.forEach(interativeLog);
+  array.forEach(callback);
   return array;
 }
 
